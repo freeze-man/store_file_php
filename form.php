@@ -96,7 +96,7 @@ if(isset($_POST) && array_key_exists("name", $_POST) &&
     $result = mysqli_query($obj_c, $query);
 
 }
-
+/*comment for PHP*/
 $query = "select * from account";
 $result = mysqli_query($obj_c, $query);
 $result = mysqli_fetch_all($result, MYSQL_ASSOC);
